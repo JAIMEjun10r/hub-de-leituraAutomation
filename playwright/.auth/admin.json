@@ -1,0 +1,26 @@
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "http://localhost:3000",
+      "localStorage": [
+        {
+          "name": "userId",
+          "value": "2"
+        },
+        {
+          "name": "authToken",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJhZG1pbkBiaWJsaW90ZWNhLmNvbSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTc1ODczODk3NywiZXhwIjoxNzU4NzY3Nzc3fQ.E7m2rarlvrj8ZN2HIZ40OqJsohikwt981oSMt9jSBtY"
+        },
+        {
+          "name": "isAdmin",
+          "value": "true"
+        },
+        {
+          "name": "userName",
+          "value": "Bibliotecário Admin"
+        }
+      ]
+    }
+  ]
+}

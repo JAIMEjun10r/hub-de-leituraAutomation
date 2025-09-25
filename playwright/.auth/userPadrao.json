@@ -1,0 +1,26 @@
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "http://localhost:3000",
+      "localStorage": [
+        {
+          "name": "userId",
+          "value": "1"
+        },
+        {
+          "name": "authToken",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJ1c3VhcmlvQHRlc3RlLmNvbSIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE3NTg3Mzg5NzQsImV4cCI6MTc1ODc2Nzc3NH0.NfH8sDMGpZ-QkCGe_079o4SaqWQKDx1sG1bZ3n2xGRM"
+        },
+        {
+          "name": "isAdmin",
+          "value": "false"
+        },
+        {
+          "name": "userName",
+          "value": "Usuário Padrão"
+        }
+      ]
+    }
+  ]
+}

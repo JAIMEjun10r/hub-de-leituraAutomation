@@ -1,0 +1,6 @@
+{
+  "login": {
+    "invalidCredentials": "Email ou senha incorretos",
+    "invalidEmail": "Por favor, insira um email válido."
+  }
+}
