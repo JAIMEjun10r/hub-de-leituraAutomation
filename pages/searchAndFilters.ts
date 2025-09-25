@@ -17,9 +17,11 @@ export class SearchAndFilters {
     await realPromise
     await expect(this.page.locator('#book-list')).toBeVisible()
 
-  
+
     const authorCard = this.page.locator('#book-list .card', { hasText: author }).first();
-    await expect(authorCard).toBeVisible();
+    await authorCard.waitFor({ state: 'visible' });
+    const authorElement = this.page.getByText(author, { exact: true })
+    await expect(authorElement).toBeVisible()
   }
 
   async searchByAuthorWithMultipleBooks(author: string) {
@@ -31,6 +33,9 @@ export class SearchAndFilters {
     await realPromise
     await expect(this.page.locator('#book-list')).toBeVisible()
 
+    
+    const authorCard = this.page.locator('#book-list .card', { hasText: author }).first();
+    await authorCard.waitFor({ state: 'visible' });
     const allBooks = this.page.locator('#book-list .card')
     const booksByAuthor = this.page.locator('#book-list .card').filter({ hasText: author })
 

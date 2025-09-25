@@ -10,7 +10,7 @@
         },
         {
           "name": "authToken",
-          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJ1c3VhcmlvQHRlc3RlLmNvbSIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE3NTg3Mzg5NzQsImV4cCI6MTc1ODc2Nzc3NH0.NfH8sDMGpZ-QkCGe_079o4SaqWQKDx1sG1bZ3n2xGRM"
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJ1c3VhcmlvQHRlc3RlLmNvbSIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE3NTg4MTE2NDksImV4cCI6MTc1ODg0MDQ0OX0.eQ7sNwaSK3StlDLz2xw0F5liu-l0BXfeAYJ6N2KrDxo"
         },
         {
           "name": "isAdmin",
