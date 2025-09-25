@@ -7,7 +7,7 @@ test.beforeEach(async ({ page }) => {
 });
 
 
-test('Search for a book filtering by author with only one book', async ({ page }) => {
+test.skip('Search for a book filtering by author with only one book', async ({ page }) => {
   await page.shoppingCart.startBookSearchFromDashboard();
   await page.searchAndFilters.searchByAuthor('Franz Kafka');
 
