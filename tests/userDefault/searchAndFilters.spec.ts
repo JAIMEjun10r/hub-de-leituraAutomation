@@ -13,6 +13,7 @@ test.skip('Search for a book filtering by author with only one book', async ({ p
 
 });
 
+
 test('Search for a book filtering by author with multiple books', async ({ page }) => {
   await page.shoppingCart.startBookSearchFromDashboard();
   await page.searchAndFilters.searchByAuthorWithMultipleBooks('George Orwell');
