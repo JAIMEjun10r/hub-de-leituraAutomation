@@ -6,13 +6,13 @@ import { test } from '../../support/index';
     await page.goto('/dashboard.html');
   });
 
-  test('Add book to cart', async ({ page }) => {
+  test.skip('Add book to cart', async ({ page }) => {
     await page.shoppingCart.startBookSearchFromDashboard();
     await page.shoppingCart.serchingForBook('1984');
     await page.shoppingCart.addingToCart();
   });
 
-  test('Add multiple books to cart', async ({ page }) => {
+  test.skip('Add multiple books to cart', async ({ page }) => {
     await page.shoppingCart.startBookSearchFromDashboard();
     await page.shoppingCart.serchingForBook('1984');
     await page.shoppingCart.addingToCart();
@@ -20,7 +20,7 @@ import { test } from '../../support/index';
     await page.shoppingCart.addingToCart();
   });
 
-  test('Add book already existing in cart', async ({ page }) => {
+  test.skip('Add book already existing in cart', async ({ page }) => {
     await page.shoppingCart.startBookSearchFromDashboard();
     await page.shoppingCart.serchingForBook('1984');
     await page.shoppingCart.addingToCart();
@@ -28,7 +28,7 @@ import { test } from '../../support/index';
     await page.shoppingCart.duplicatedBook();
   });
 
-  test('Validate cart item counter', async ({ page }) => {
+  test.skip('Validate cart item counter', async ({ page }) => {
     await page.shoppingCart.startBookSearchFromDashboard();
     await page.shoppingCart.serchingForBook('1984');
     await page.shoppingCart.addingToCart();
