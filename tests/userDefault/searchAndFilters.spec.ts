@@ -23,4 +23,5 @@ test('Search for a book filtering by author with multiple books', async ({ page 
 test('Search for a book filtering by category', async ({ page }) => {
   await page.shoppingCart.startBookSearchFromDashboard();
   await page.searchAndFilters.searchByCategory('Ficção');
+  
 })
