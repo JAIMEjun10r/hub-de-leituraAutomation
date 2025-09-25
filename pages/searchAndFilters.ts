@@ -17,8 +17,9 @@ export class SearchAndFilters {
     await realPromise
     await expect(this.page.locator('#book-list')).toBeVisible()
 
-    const authorElement = this.page.getByText(author, { exact: true })
-    await expect(authorElement).toBeVisible()
+  
+    const authorCard = this.page.locator('#book-list .card', { hasText: author }).first();
+    await expect(authorCard).toBeVisible();
   }
 
   async searchByAuthorWithMultipleBooks(author: string) {
